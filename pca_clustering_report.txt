@@ -1,0 +1,26 @@
+PCA and Clustering Analysis for Comparison Countries
+===================================================
+
+Countries analyzed: Ireland, Norway, Finland, New Zealand, Singapore, Slovakia, Costa Rica
+Energy metrics used: Clean, Coal, Fossil, Gas and Other Fossil, Hydro, Bioenergy and Other Renewables, Nuclear, Other Renewables, Renewables, Solar, Wind
+
+PCA Results:
+- Principal Component 1 explained variance: 0.47
+- Principal Component 2 explained variance: 0.20
+- Total variance explained: 0.67
+
+Clustering Results:
+- Optimal number of clusters: 2
+- Cluster assignments:
+  Cluster 1: Ireland, Singapore
+  Cluster 2: Costa Rica, Finland, New Zealand, Norway, Slovakia
+
+Ireland Analysis:
+- Ireland belongs to Cluster 1
+- Countries with similar energy profiles to Ireland: Singapore
+- Key differentiating features for Ireland:
+  * Hydro, Bioenergy and Other Renewables: Ireland = 2.3%, Cluster avg = 27.6%, Diff = -25.3%
+  * Gas and Other Fossil: Ireland = 55.2%, Cluster avg = 76.5%, Diff = -21.3%
+  * Clean: Ireland = 41.5%, Cluster avg = 21.8%, Diff = +19.7%
+  * Renewables: Ireland = 41.5%, Cluster avg = 21.8%, Diff = +19.7%
+  * Fossil: Ireland = 58.5%, Cluster avg = 78.2%, Diff = -19.7%
