@@ -1,31 +1,31 @@
 Energy Sector Sentiment Analysis Summary:
 ---------------------------------------
-Total text entries analyzed: 510
+Total text entries analyzed: 506
 Countries covered: Ireland, Norway, Finland, New Zealand, Singapore, Slovakia, Costa Rica
 
 Overall sentiment distribution:
-  Positive: 22.9%
-  Neutral: 77.1%
+  Positive: 22.7%
+  Neutral: 77.3%
   Negative: 0.0%
 
 Ireland specific sentiment:
-  Overall: 0.16
-  Producer perspective: 0.32
-  Consumer perspective: 0.12
+  Overall: 0.19
+  Producer perspective: 0.24
+  Consumer perspective: 0.21
 
 Energy types with most positive sentiment:
                        mean  count
 energy_types_list                 
-hydro              0.278846    104
-coal               0.276596     94
-solar              0.257732     97
+geothermal         0.311927    109
+solar              0.287037    108
+natural gas        0.269231    104
 
 Energy types with most negative sentiment:
                        mean  count
 energy_types_list                 
-geothermal         0.222222     90
-nuclear            0.170213     94
-wind               0.168224    107
+wind               0.179775     89
+hydro              0.172043     93
+biomass            0.166667     78
 
 Model performance comparison:
   Random Forest accuracy: 1.00
@@ -37,37 +37,37 @@ Model performance comparison:
 
 Country sentiment comparison:
   Ireland:
-    Overall: 0.16
-    Producer: 0.32
-    Consumer: 0.12
-    Difference: 0.20
+    Overall: 0.19
+    Producer: 0.24
+    Consumer: 0.21
+    Difference: 0.03
   Norway:
-    Overall: 0.28
-    Producer: 0.38
-    Consumer: 0.29
-    Difference: 0.08
+    Overall: 0.10
+    Producer: 0.16
+    Consumer: 0.00
+    Difference: 0.16
   Finland:
-    Overall: 0.22
-    Producer: 0.22
-    Consumer: 0.20
-    Difference: 0.02
-  New Zealand:
-    Overall: 0.30
-    Producer: 0.19
-    Consumer: 0.48
-    Difference: -0.29
-  Singapore:
-    Overall: 0.17
-    Producer: 0.09
-    Consumer: 0.17
-    Difference: -0.09
-  Slovakia:
-    Overall: 0.21
-    Producer: 0.10
-    Consumer: 0.27
-    Difference: -0.17
-  Costa Rica:
     Overall: 0.29
-    Producer: 0.23
-    Consumer: 0.29
-    Difference: -0.06
+    Producer: 0.28
+    Consumer: 0.22
+    Difference: 0.06
+  New Zealand:
+    Overall: 0.24
+    Producer: 0.26
+    Consumer: 0.26
+    Difference: -0.01
+  Singapore:
+    Overall: 0.22
+    Producer: 0.09
+    Consumer: 0.28
+    Difference: -0.19
+  Slovakia:
+    Overall: 0.29
+    Producer: 0.40
+    Consumer: 0.20
+    Difference: 0.20
+  Costa Rica:
+    Overall: 0.26
+    Producer: 0.20
+    Consumer: 0.35
+    Difference: -0.15
